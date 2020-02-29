@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@font-face {
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+div#intro h1{
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 50px;
+    color: green;
+    text-shadow: 5px 5px 5px black;
+    padding-top: 15px;
+    margin-top: -7px;
+    text-align: center;	
+}
+
+div#intro {
+	background-image: url("_imagens/240_F_201267073_Y1XcflW7BkIXjcYPwG7G7MFbfNDvoEJD.jpg") ;
+    padding-bottom: 100px;
+    width:1250px auto;
+    height: 1000px auto;	
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li#principal {
+	background-color: lightgreen;
+	color: black;
+	float: left;
+	width: auto;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	transition: 1s;
+	font-size: 14pt;
+}
+.menu ul li#principal:hover {
+	background-color: green;
+	color: white;
+}
+
+.menu ul {
+	padding: 0;
+    position: relative;
+	left: 55px;
+	
+}
+
+.menu ul ul {
+	display: none;
+	background-color: lightgreen;
+	color: blue;
+	transition: 1s;
+	list-style: none;
+	left: -10px;
+	top: 5px;
+	width: auto;
+	margin-right: -20px;
+	transition: 1s;
+}
+
+.menu ul li#principal:hover > ul {
+	display: block;
+}
+
+.menu ul ul li#secundario:hover {
+    background-color: green;
+	color: white;
+}
+
+.menu a {
+	text-decoration: none;
+	color: blue;
+}
+
+.menu a:hover {
+	color: white;
+}
+
+body {
+	background-color: white;
+	font-family: sans-serif;
+	width: 1000px;
+	margin: auto;
+	padding: 0;
+	box-shadow: 5px 5px 5px 5px black;
+	height: auto;
+}
+
+img#icone{
+	position: absolute;
+	left: 1000px;
+	top: 200px;
+}
+
+div#corpo {
+	width: 700px;
+	height: 400px auto;
+}
+
+div#corpo h1 {
+	font-family: Arial, Sans-serif;
+	color: black;
+	
+}
+
+div#corpo img {
+	margin-left: 150px;
+}

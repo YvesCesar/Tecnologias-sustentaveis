@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+	 <title>Pesquisadores</title>
+	 <link rel="stylesheet" type="text/css" href="DesignHome.css"/>
+	 <link rel="stylesheet" type="text/css" href="DesignReferencias.css">
+	 <script>
+	        function mudaFoto(foto) {
+			      document.getElementById("icone").src= foto;
+			}
+	 </script>
+
+<style type="text/css">
+
+	h1 {
+		text-align: center;
+		color: green;
+        font-weight: bold;
+	}
+	h2 {
+		text-align: center;
+		color: green;
+	}
+	ul#album-fotos {
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+    }
+
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 5px 5px 10px green;
+	-webkit-transition: all .5s ease-in;
+}
+
+ul#album-fotos li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+ul#album-fotos li#foto01:hover {
+	background-position: 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02:hover {
+	background-position: 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03:hover {
+	background-position: 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04:hover {
+	background-position: 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05:hover {
+	background-position: 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06:hover {
+	background-position: 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto01 {
+	background: url('_imagens/Fernando Leo 20190518_131629.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto02 {
+	background: url('_imagens/Juarez Filho 20190518_131551.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto03 {
+	background: url('_imagens/Lucas Fonseca 20190518_134527.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto04 {
+	background: url('_imagens/Wilson Fogaça 20190518_131538.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#foto05 {
+	background: url('_imagens/Yves Cesar.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;	
+}
+
+ul#album-fotos li#foto06 {
+	background: url('_imagens/unipmanaus.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+	 </style>
+     
+</head>
+<body>
+    <div id="intro">
+    <hgroup id="cabecalho">
+    <h1>Autores</h1>
+	</hgroup> 
+    <nav class="menu">
+	    <ul>
+		    <li id="principal"><a href="Home.html">Home</a></li>
+		    <li id="principal"><a href="#">Tecnologias Sustentáveis</a>
+	            <ul>
+		            <li id="secundario" onmouseover= "mudaFoto('_imagens/carroseletricos.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="Parte Juarez/APS/Projeto de Site/Carros.html">Carros Elétricos</a></li>
+			        <li id="secundario" onmouseover= "mudaFoto('_imagens/gerdist.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="Parte Juarez/APS/Projeto de Site/Geração.html">Geração Distribuída</a></li>
+			        <li id="secundario" onmouseover= "mudaFoto('_imagens/blockchain3.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="Blockchain.html">Blockchain</a></li>
+			        <li id="secundario" onmouseover= "mudaFoto('_imagens/iot.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="Parte Juarez/APS/Projeto de Site/Internet.html">Internet das Coisas</a></li>
+	  	        </ul>
+	        </li>
+	        <li id="principal" onmouseover= "mudaFoto('_imagens/referencias.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="referencias.html">Referências Bibliográficas</a></li>
+	        <li id="principal" onmouseover= "mudaFoto('_imagens/autores.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="autores.html">Autores das Pesquisas</a></li>
+	        <li id="principal" onmouseover= "mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/autores.png')"><a href="contato.html">Fale Conosco</a></li>
+		</ul>
+	</nav>
+    </div>	  
+    <img id="icone"  src="_imagens/autores.png"/>
+
+    <h1>Alunos e Universidade</h1>
+    <h2>Responsáveis pela pesquisa do conteúdo no site.</h2>
+    
+    <ul id="album-fotos">
+        <li id="foto01"><span>Fernando Leão</span></li>
+        <li id="foto02"><span>Juarez Filho</span></li>
+        <li id="foto03"><span>Lucas Fonseca</span></li>
+        <li id="foto04"><span>Wilson Fogaça</span></li>
+        <li id="foto05"><span>Yves César</span></li>
+        <li id="foto06"><span>Universidade Paulista- Manaus I</span></li>
+    </ul> 
+
+    <div id="rodape">
+    
+    		<p>Copyright © 2019 by <a href="autores.html">Pesquisadores</a> <br>
+    		<a href="https://pt-br.facebook.com/unipmanausam/">Facebook</a> / <a href="https://www2.unip.br/portal.aspx">Universidade</a></p>
+    </div>
+      
+   
+</body>
+</html>

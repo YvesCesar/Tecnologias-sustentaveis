@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+	 <title>Tecnologia Sustentável</title>
+	 <link rel="stylesheet" type="text/css" href="DesignHome.css"/>
+	 <script>
+	        function mudaFoto(foto) {
+			      document.getElementById("icone").src= foto;
+			}
+	 </script>
+     
+</head>
+<body>
+    <div id="intro">
+    <hgroup id="cabecalho">
+    <h1>Tecnologia Sustentável</h1>
+	</hgroup> 
+    <nav class="menu">
+	    <ul>
+		    <li id="principal"><a href="Home.html">Home</a></li>
+		    <li id="principal"><a href="#">Tecnologias Sustentáveis</a>
+	            <ul>
+		            <li id="secundario" onmouseover= "mudaFoto('_imagens/carroseletricos.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Carros Elétricos</a></li>
+			        <li id="secundario" onmouseover= "mudaFoto('_imagens/gerdist.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Geração Distribuída</a></li>
+			        <li id="secundario" onmouseover= "mudaFoto('_imagens/blockchain3.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Blockchain</a></li>
+			        <li id="secundario" onmouseover= "mudaFoto('_imagens/iot.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Internet das Coisas</a></li>
+	  	        </ul>
+	        </li>
+	        <li id="principal" onmouseover= "mudaFoto('_imagens/referencias.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Referências Bibliográficas</a></li>
+	        <li id="principal" onmouseover= "mudaFoto('_imagens/autores.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Autores das Pesquisas</a></li>
+	        <li id="principal" onmouseover= "mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/home1.png')"><a href="">Fale Conosco</a></li>
+		</ul>
+	</nav>
+    </div>	  
+    <img id="icone"  src="_imagens/home1.png"/>
+	<div id="corpo">
+		<aside>
+	        <h1>Desenvolvimento Sustentável é necessário?</h1>
+		        <p>Acompanhamos no dia-a-dia o quanto o ser humano está destruindo o meio ambiente. O crescimento das cidades, as indústrias e os veículos estão causando transtornos para o ar, o solo e as águas. O desenvolvimento é necessário, porém, o ser humano precisa respeitar o meio ambiente, pois dependemos dele para sobreviver neste planeta. É importante que haja a viabilidade econômica nas ações voltadas para a produção de bens e serviços, porém estes não devem comprometer o futuro das próximas gerações.</p>
+		    <h1>Logo, o que é Desenvolvimento Sustentável?</h1>
+		    <img src="_imagens/oqesus1.jpg" />
+		        <p>Desenvolvimento sustentável significa obter crescimento econômico necessário, garantindo a preservação do meio ambiente e o desenvolvimento social para o presente e gerações futuras. 
+                Portanto, para que ocorra o desenvolvimento sustentável é necessário que haja uma harmonização entre o desenvolvimento econômico, a preservação do meio ambiente, a justiça social (acesso a serviços públicos de qualidade), a qualidade de vida e o uso racional dos recursos da natureza (principalmente a água).</p>
+        </aside>
+    </div>	  
+      
+      
+   
+</body>
+</html>

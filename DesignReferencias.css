@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+table {
+	width: 700px;
+	margin: auto;
+	border-color: lightgreen;
+	margin-top: 20px;
+	background: lightgray;
+}
+legend {
+	text-align: center;
+	font-weight: bold;
+	color: green;
+}
+
+div#rodape {
+	clear: both;
+	margin-top: -400px auto;
+	padding: 10px;
+}
